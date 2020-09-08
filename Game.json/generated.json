@@ -1,0 +1,83 @@
+{
+  "passages": [
+    {
+      "text": "All you know is that you don't know. Where you are. Who you are. Where this pass through the mountains leads.\n\n[[Proceed ->Dark Forest]] \n[[Give Up ->A Small Comfortable corner]] ",
+      "links": [
+        {
+          "name": "Proceed ",
+          "link": "Dark Forest",
+          "pid": 2
+        },
+        {
+          "name": "Give Up ",
+          "link": "A Small Comfortable corner",
+          "pid": 4
+        }
+      ],
+      "name": "A Pass",
+      "pid": 1,
+      "position": {
+        "x": 379,
+        "y": 416
+      }
+    },
+    {
+      "text": "You arrive at the cliche \"Dark Forest.\" Obviously this is the start of some trying times, or a challenge of some sort, who knows, not me. Obviously.\n\n[[ Chicken Out ->A Pass]] \n[[ Be Somewhat Brave ->Safety]] ",
+      "links": [
+        {
+          "name": " Chicken Out ",
+          "link": "A Pass",
+          "pid": 1
+        },
+        {
+          "name": " Be Somewhat Brave ",
+          "link": "Safety",
+          "pid": 3
+        }
+      ],
+      "name": "Dark Forest",
+      "pid": 2,
+      "position": {
+        "x": 546,
+        "y": 414.5
+      }
+    },
+    {
+      "text": "You made it out! There would me more to this game, but I was only required to make 4 locations, so this game turned out pretty boring.\n\nThe End\n\n[[Turn around because you actually expected a challenge ->Dark Forest]] ",
+      "links": [
+        {
+          "name": "Turn around because you actually expected a challenge ",
+          "link": "Dark Forest",
+          "pid": 2
+        }
+      ],
+      "name": "Safety",
+      "pid": 3,
+      "position": {
+        "x": 694,
+        "y": 417.5
+      }
+    },
+    {
+      "text": "You have lost the will to live, so you curl up in a ball and whine, hoping for a bear comes along to eat you ... or something.\n\n[[Regain the will to live ->A Pass]] \n",
+      "links": [
+        {
+          "name": "Regain the will to live ",
+          "link": "A Pass",
+          "pid": 1
+        }
+      ],
+      "name": "A Small Comfortable corner",
+      "pid": 4,
+      "position": {
+        "x": 380,
+        "y": 290.5
+      }
+    }
+  ],
+  "name": "Anything that You Want",
+  "startnode": 1,
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "4D4B230F-6237-48A1-A845-618E76E7AB0B"
+}
